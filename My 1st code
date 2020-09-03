@@ -1,0 +1,31 @@
+'''faulty calculator'''
+
+#hii.m challenger 
+
+
+# dont divide 98 by 2....i said no,,
+
+
+print ('choose one of the following math operator, / , * , + , - ,')
+z = input("ur mathematical operator")
+
+x = int(input("first input"))
+y = int(input(" second input"))
+
+if x == 98 and y == 2  and z == '/':
+    print('23')
+    
+elif z == '/':
+    print (x / y)
+    
+elif z== '*':
+    print (x*y)
+
+elif z == '+':
+    print  (x+y)
+elif z == '-':
+     print  (x-y)
+else:
+    print('oops')
+    
+
