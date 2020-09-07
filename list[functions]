@@ -1,0 +1,45 @@
+list1 = [2,3]
+for items in list1 :
+   print (items * 'X')
+
+
+list2 = [3,5,7,7]
+for items in list2:
+    print (items + 2)
+    
+    
+list3 = [7,2,6,48,5,1]
+min = list3 [0]
+for items in list3 :
+    if items > min :
+        min = items 
+        print (min)
+
+
+
+list4 = [2,4,6,1,1]  
+for count in list4 :
+    input = ''  
+    for spell in range(count ):
+ #here range is special function!!!!!!!!!!
+        input += 's'
+    print (input)        
+    
+list5 = [
+[1,2,3],
+[4,5,6],
+[7,8,9,]]
+print(list5 [0][0])
+print(list5 [1][0]  ) 
+for make in list5 :
+    for item in make:
+        print (item) 
+        
+numbers = [5,1,2,3,4,5]
+empty_list = []
+for items in numbers :
+    if items  not in empty_list :
+        empty_list.append(items )
+        print (empty_list )
+        
+    
