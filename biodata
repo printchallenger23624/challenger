@@ -1,0 +1,88 @@
+#hii,m challenger , and wtt bout u!!
+
+#let we\ go\ now:  :)
+
+  
+    
+ #let
+
+
+y = 1
+while y <= 1 :
+    print("    yaa you are going", end = "")
+    z = 1
+    while z <= 1:
+        print (" greatly    ", end = "" )
+        z = z + 1   
+
+    y = y + 1
+    
+    
+list = [ "hii"]
+for var in list:
+   print (list)
+   
+wtt_u_want = ["hii","hlo","bye","wlcm","thx"]
+
+
+#here input is must....
+
+
+
+q = int(input(" it would be better that you choose numbers between 0 to 5  :  "))
+if q < 5:
+    print(wtt_u_want[q])
+else:
+    print ("oops !!choose the no. less than 5")
+z= input("user name : ")
+
+#input is must :,::
+
+
+if len(z)<= 8 :
+  print("  :  name must be at least 8 character")
+else:
+  if len(z)>= 50:
+      print("  : name must be a maximum of 50 character ")
+ 
+  else:
+      print ("  : it looks good")
+      
+      
+words=["_____"]
+a=0
+b=len(words) - 1
+while a<=b :
+          c=words[a]
+          print(c+"!")
+          a=a+1      
+print("okk here, we r going to covert ur weight from 'kilo' to 'pounds' or vice versa.... ")
+
+
+#input must::: 
+
+ur_weight = int(input("weight : "))
+unit    = input ("(l)or (k) : ")
+if unit == 'l':
+        calculated = ur_weight * 0.45
+        print (f"you are {calculated} kilos")
+else :
+        unit == 'k'
+        calculated = ur_weight / 0.45
+        print (f"you are {calculated } pounds")
+
+print('now we r going to play one small game!! u have to guess right no. ,and  remember u have only three turns')                
+random_no = 3
+limit = 3
+start_random = 0
+while start_random < limit :
+    guess = int(input(' try : ' ))
+    
+#input must:::    
+    
+    start_random += 1
+    if guess == random_no :
+       print ("you won")
+       break 
+else:
+    print("aww!! u lose")
